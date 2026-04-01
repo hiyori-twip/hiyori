@@ -125,6 +125,22 @@
       .grid,.mini-grid{grid-template-columns:1fr}
       p{font-size:16px}
     }
+    details summary {
+  list-style: none;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary::before {
+  content: "+ ";
+  font-weight: 600;
+}
+
+details[open] summary::before {
+  content: "− ";
+}
   </style>
 </head>
 <body>
@@ -145,77 +161,66 @@
         <p>Our work emphasizes precision, consistency, and informed decision-making. We aim to provide reliable guidance that supports sustainable rights protection under Taiwan’s intellectual property system.</p>
       </section>
 
-      <section id="practice">
-        <h2>Areas of Practice</h2>
-        <p class="lead">Legal advisory services grounded in Taiwan’s intellectual property laws and procedures.</p>
-        <div class="grid">
-          <div class="card">
-            <details style="margin-bottom:20px; border-bottom:1px solid #ddd; padding-bottom:10px;">
-  <summary style="font-size:18px; cursor:pointer; list-style:none;">
-    <h3>Trademark Protection</h3>
-  </summary>
+<section id="practice">
+  <h2>Areas of Practice</h2>
+  <p class="lead">Legal advisory services grounded in Taiwan’s intellectual property laws and procedures.</p>
 
-  <p style="margin-top:10px; line-height:1.6;">
-    Advising on trademark filing strategies, examination responses, and procedural developments under Taiwan law.
-  </p>
-</details>
-          </div>
-          <div class="card">
-            <details style="margin-bottom:20px; border-bottom:1px solid #ddd; padding-bottom:10px;">
-  <summary style="font-size:18px; cursor:pointer; list-style:none;">
-    <h3>Brand Disputes</h3>
-  </summary>
+  <div class="grid">
+    <div class="card">
+      <details>
+        <summary style="font-size:18px; cursor:pointer; font-weight:600;">Trademark Protection</summary>
+        <p style="margin-top:12px; line-height:1.6;">
+          Advising on trademark filing strategies, examination responses, and procedural matters under Taiwan law. We assist clients through both initial registration and subsequent administrative stages with clarity and structure.
+        </p>
+      </details>
+    </div>
 
-  <p style="margin-top:10px; line-height:1.6;">
-    Handling opposition and invalidation proceedings with attention to evidentiary support, procedural strategy, and brand positioning under Taiwan law.
-  </p>
-</details>
-          </div>
-          <div class="card">
-            <details style="margin-bottom:20px; border-bottom:1px solid #ddd; padding-bottom:10px;">
-  <summary style="font-size:18px; cursor:pointer; list-style:none;">
-    <h3>Copyright &amp; Creative Rights</h3>
-  </summary>
+    <div class="card">
+      <details>
+        <summary style="font-size:18px; cursor:pointer; font-weight:600;">Brand Disputes</summary>
+        <p style="margin-top:12px; line-height:1.6;">
+          Handling opposition and invalidation proceedings with attention to evidentiary support, procedural strategy, and brand positioning under Taiwan law.
+        </p>
+      </details>
+    </div>
 
-  <p style="margin-top:10px; line-height:1.6;">
-    Advisory and registration support relating to authorship, ownership structure, and protection of creative assets under Taiwan law.
-  </p>
-</details>
-          </div>
-          <div class="card">
-            <details style="margin-bottom:20px; border-bottom:1px solid #ddd; padding-bottom:10px;">
-  <summary style="font-size:18px; cursor:pointer; list-style:none;">
-    <h3>IP Contract Advisory</h3>
-  </summary>
+    <div class="card">
+      <details>
+        <summary style="font-size:18px; cursor:pointer; font-weight:600;">Copyright &amp; Creative Rights</summary>
+        <p style="margin-top:12px; line-height:1.6;">
+          Advisory and registration support relating to authorship, ownership structure, and protection of creative assets under Taiwan law.
+        </p>
+      </details>
+    </div>
 
-  <p style="margin-top:10px; line-height:1.6;">
-    Reviewing intellectual property provisions in commercial agreements, including ownership, licensing, and assignment terms. The focus is on aligning contractual arrangements with Taiwan’s legal framework and supporting enforceable rights positions.
-</p>
-</details>
-          <div class="card">
-            <details style="margin-bottom:20px; border-bottom:1px solid #ddd; padding-bottom:10px;">
-  <summary style="font-size:18px; cursor:pointer; list-style:none;">
-    <h3>Patent Search &amp; Risk Review</h3>
-  </summary>
+    <div class="card">
+      <details>
+        <summary style="font-size:18px; cursor:pointer; font-weight:600;">IP Contract Advisory</summary>
+        <p style="margin-top:12px; line-height:1.6;">
+          Reviewing intellectual property provisions in commercial agreements, including ownership, licensing, and assignment terms. The focus is on aligning contractual arrangements with Taiwan’s legal framework and supporting enforceable rights positions.
+        </p>
+      </details>
+    </div>
 
-  <p style="margin-top:10px; line-height:1.6;">
-    Targeted patent searches and structured assessments supporting product planning and market entry considerations in Taiwan.
-</p>
-</details>
-          </div>
-          <div class="card">
-            <details style="margin-bottom:20px; border-bottom:1px solid #ddd; padding-bottom:10px;">
-  <summary style="font-size:18px; cursor:pointer; list-style:none;">
-    <h3>Taiwan Market Entry Advisory</h3>
-  </summary>
+    <div class="card">
+      <details>
+        <summary style="font-size:18px; cursor:pointer; font-weight:600;">Patent Search &amp; Risk Review</summary>
+        <p style="margin-top:12px; line-height:1.6;">
+          Targeted patent searches and structured assessments supporting product planning and market entry considerations in Taiwan.
+        </p>
+      </details>
+    </div>
 
-  <p style="margin-top:10px; line-height:1.6;">
-    Advising international businesses on intellectual property and brand protection considerations when entering or expanding in Taiwan, aligning global strategies with local legal requirements.
-</p>
-</details>
-          </div>
-        </div>
-      </section>
+    <div class="card">
+      <details>
+        <summary style="font-size:18px; cursor:pointer; font-weight:600;">Taiwan Market Entry Advisory</summary>
+        <p style="margin-top:12px; line-height:1.6;">
+          Advising international businesses on intellectual property and brand protection considerations when entering or expanding in Taiwan, aligning global strategies with local legal requirements.
+        </p>
+      </details>
+    </div>
+  </div>
+</section>
 
       <section id="approach">
         <h2>Our Approach</h2>
